@@ -1,4 +1,9 @@
-// factorial using recursion
+// finding power of a number .
+// with base as well as exponent
+// both taken as input from user
+// eg. 2^4 = 16
+//     3^5 = 243
+
 
 #include <bits/stdc++.h>
 using namespace std;
