@@ -1,12 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
- // } Driver Code Ends
-
-
-
-
 class Solution{
     public:
     // Function to convert given array to wave like array
@@ -18,9 +12,6 @@ class Solution{
         {
             for(int i=0;i<n;i=i+2)
             {
-                
-              
-              
                 temp = arr[i];
                 arr[i]=arr[i+1];
                 arr[i+1]=temp;
@@ -29,7 +20,6 @@ class Solution{
                    {
                        break;
                    }
-              
             }
         }
         else
@@ -40,13 +30,9 @@ class Solution{
               arr[i]=arr[i+1];
               arr[i+1]=temp;
             }
-        }
-        
-        
+        }   
     }
 };
-
-// { Driver Code Starts.
 
 int main()
 {
@@ -58,12 +44,12 @@ int main()
         int a[n]; //declare array of size n
         for(int i=0;i<n;i++)
             cin>>a[i]; //input elements of array
-        Solution ob;
-        ob.convertToWave(a, n);
+        Solution ob;  //creating ob object of solution class
+        ob.convertToWave(a, n);  //passing a and n to convertToWave
 
         for(int i=0;i<n;i++)
             cout<<a[i]<<" "; //print array
             
         cout<<endl;
     }
-}  // } Driver Code Ends
+} 
