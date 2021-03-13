@@ -1,68 +1,32 @@
-// finding palindrome string
-
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
-class Solution{
-public:	
+bool isPalindrome(string s)//time comp. O(n) : only one traversal
+{
+	int i=0;
+	int j=s.length()-1;
 
-	int isPlaindrome(string S)
+	while(i<j)
 	{
-	    string S1="";
-	    string S2="";
-	    int n = S.length();
-	    
-	    if(n%2==0)
-	    {
-	    for(int i=0;i<n/2;i++)
-	    {
-	        S1=S1+S[i];
-	    }
-	    for(int i=n/2;i<n;i++)
-	    {
-	        S2=S2+S[i];
-	    }
-	    }
-	    else
-	    {
-	       for(int i=0;i<n/2;i++)
-	       {
-	        S1=S1+S[i];
-	       }
-	       for(int i=n/2+1;i<n;i++)
-	       {
-	        S2=S2+S[i];
-	       }
-	    }
-	    reverse(S2.begin(),S2.end());
-	    if(S1==S2)
-	    {
-	        return 1;
-	    }
-	    else
-	    {
-	        return 0;
-	    }
+		if(s[i]==s[j])
+		{
+			i++;
+			j--;
+		}
+		else
+		{
+			return false;
+		}
 	}
 
-};
+	return true;
+}
 
-
-
-int main() 
+int main()
 {
-   	
-   	int t;
-   	cin >> t;
-   	while(t--)
-   	{
-   		string s;
-   		cin >> s;
+	string s;
+	cin>>s;
 
-   	    Solution ob;   // created object ob for class Solution
-
-   		cout << ob.isPlaindrome(s) << "\n"; //calling isPlaindrome from ob class
-   	}
-
-    return 0;
-} 
+	cout<<isPalindrome(s);
+	return 0;
+}
