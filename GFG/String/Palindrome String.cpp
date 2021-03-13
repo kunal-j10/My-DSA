@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-bool isPalindrome(string s)
+bool isPalindrome(string s)//time comp. O(n) : only one traversal
 {
 	int i=0;
 	int j=s.length()-1;
