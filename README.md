@@ -5,10 +5,15 @@
 * [Missing Elements Unsorted Array](https://github.com/kunal-j10/My-DSA/blob/main/Array/Missing%20Elements%20Unsorted%20Array.cpp)
 * [Missing Elements](https://github.com/kunal-j10/My-DSA/blob/main/Array/Missing%20Elements.cpp)
 * [Remove Duplicates from Sorted Array](https://github.com/kunal-j10/My-DSA/blob/main/Array/Remove%20Duplicates%20from%20Sorted%20Array.cpp)
+   ---------------[View Question](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 * [Remove Elements](https://github.com/kunal-j10/My-DSA/blob/main/Array/Remove%20Elements.cpp)
+   -------------------------------------[View Question](https://leetcode.com/problems/remove-element/)
 * [Search Insert Position](https://github.com/kunal-j10/My-DSA/blob/main/Array/Search%20Insert%20Position.cpp)
+   ---------------------------------[View Question](https://leetcode.com/problems/search-insert-position/)
 * [Search in Rotated Sorted Array](https://github.com/kunal-j10/My-DSA/blob/main/Array/Search%20in%20Rotated%20Sorted%20Array.cpp)
+   -----------------------[View Question](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 * [Container With Most Water](https://github.com/kunal-j10/My-DSA/blob/main/Array/Container%20With%20Most%20Water.cpp)
+   ---------------------------[View Question](https://leetcode.com/problems/container-with-most-water/)
 ## Linked Lists
 * [Insert Node at Tail of Linked List](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Insert%20Node%20at%20Tail%20of%20Linked%20List.cpp)
 ## Recurssion
