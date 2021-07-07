@@ -14,6 +14,8 @@
    -----------------------[View Question](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 * [Container With Most Water](https://github.com/kunal-j10/My-DSA/blob/main/Array/Container%20With%20Most%20Water.cpp)
    ---------------------------[View Question](https://leetcode.com/problems/container-with-most-water/)
+* [Median of two sorted arrays](https://github.com/kunal-j10/My-DSA/blob/main/Array/Median%20of%20two%20sorted%20arrays.cpp)
+   --------------------------[View Question](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 ## Strings
 * [Palindrome String](https://github.com/kunal-j10/My-DSA/blob/main/String/Palindrome%20String.cpp)
 * [Reverse words in a given string](https://github.com/kunal-j10/My-DSA/blob/main/String/Reverse%20words%20in%20a%20given%20string.cpp)
