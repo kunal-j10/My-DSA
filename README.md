@@ -2,6 +2,7 @@
 ## Arrays
 * Algorithm - [Increasing Array Size](https://github.com/kunal-j10/My-DSA/blob/main/Array/Increasing%20Array%20Size.cpp)
 * Algorithm - [Binary Search](https://github.com/kunal-j10/My-DSA/blob/main/Array/Algorithm%20-%20Binary%20Search.cpp)
+* Algorithm - [Merge Sorted Arrays](https://github.com/kunal-j10/My-DSA/blob/main/Array/Merge%20Sorted%20Arrays.cpp)
 * [Missing Elements Unsorted Array](https://github.com/kunal-j10/My-DSA/blob/main/Array/Missing%20Elements%20Unsorted%20Array.cpp)
 * [Missing Elements](https://github.com/kunal-j10/My-DSA/blob/main/Array/Missing%20Elements.cpp)
 * [Remove Duplicates from Sorted Array](https://github.com/kunal-j10/My-DSA/blob/main/Array/Remove%20Duplicates%20from%20Sorted%20Array.cpp)
