@@ -47,4 +47,4 @@
 * #### HackerRank
    * [Utopian Tree](https://github.com/kunal-j10/My-DSA/blob/main/Platform%20Specific%20Questions/HackerRank/Utopian%20Tree.cpp)
    * [Grading Students](https://github.com/kunal-j10/My-DSA/blob/main/Platform%20Specific%20Questions/HackerRank/Grading%20Students.cpp)
-   * [chewbacca and number](https://github.com/kunal-j10/My-DSA/blob/main/Platform%20Specific%20Questions/HackerRank/chewbacca%20and%20number.cpp) -- Coading Blocks
+   * [chewbacca and number](https://github.com/kunal-j10/My-DSA/blob/main/Platform%20Specific%20Questions/HackerRank/chewbacca%20and%20number.cpp) -- Coading Blocks ---------------[View Question](https://www.hackerrank.com/contests/launchpad-1-winter-challenge/challenges/chewbacca-and-number/problem)
