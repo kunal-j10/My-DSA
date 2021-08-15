@@ -3,6 +3,8 @@
 * Algorithm - [Increasing Array Size](https://github.com/kunal-j10/My-DSA/blob/main/Array/Increasing%20Array%20Size.cpp)
 * Algorithm - [Binary Search](https://github.com/kunal-j10/My-DSA/blob/main/Array/Algorithm%20-%20Binary%20Search.cpp)
 * Algorithm - [Merge Sorted Arrays](https://github.com/kunal-j10/My-DSA/blob/main/Array/Merge%20Sorted%20Arrays.cpp)
+* Algorithm - [Kadane's Algorithm](https://github.com/kunal-j10/My-DSA/blob/main/Array/Kadane's%20Algorithm.cpp)
+* Algorithm - [Sliding Window Algorithm](https://github.com/kunal-j10/My-DSA/blob/main/Array/Sliding%20Window%20Algorithm.cpp)
 * [Missing Elements Unsorted Array](https://github.com/kunal-j10/My-DSA/blob/main/Array/Missing%20Elements%20Unsorted%20Array.cpp)
 * [Missing Elements](https://github.com/kunal-j10/My-DSA/blob/main/Array/Missing%20Elements.cpp)
 * [Pair of element with sum K in Unsorted Array](https://github.com/kunal-j10/My-DSA/blob/main/Array/Unsorted%20Array%20Two%20Sum.cpp)
@@ -45,3 +47,4 @@
 * #### HackerRank
    * [Utopian Tree](https://github.com/kunal-j10/My-DSA/blob/main/Platform%20Specific%20Questions/HackerRank/Utopian%20Tree.cpp)
    * [Grading Students](https://github.com/kunal-j10/My-DSA/blob/main/Platform%20Specific%20Questions/HackerRank/Grading%20Students.cpp)
+   * [chewbacca and number](https://github.com/kunal-j10/My-DSA/blob/main/Platform%20Specific%20Questions/HackerRank/chewbacca%20and%20number.cpp) -- Coading Blocks
