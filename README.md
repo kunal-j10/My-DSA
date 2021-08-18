@@ -1,4 +1,6 @@
 # My- Data Structure and Algorithms
+
+
 ## Arrays
 * Algorithm - [Increasing Array Size](https://github.com/kunal-j10/My-DSA/blob/main/Array/Increasing%20Array%20Size.cpp)
 * Algorithm - [Binary Search](https://github.com/kunal-j10/My-DSA/blob/main/Array/Algorithm%20-%20Binary%20Search.cpp)
@@ -22,15 +24,29 @@
    ---------------------------[View Question](https://leetcode.com/problems/container-with-most-water/)
 * [Median of two sorted arrays](https://github.com/kunal-j10/My-DSA/blob/main/Array/Median%20of%20two%20sorted%20arrays.cpp)
    --------------------------[View Question](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+   
+   
+   
 ## Strings
 * [Palindrome String](https://github.com/kunal-j10/My-DSA/blob/main/String/Palindrome%20String.cpp)
 * [Reverse words in a given string](https://github.com/kunal-j10/My-DSA/blob/main/String/Reverse%20words%20in%20a%20given%20string.cpp)
+
+
+
 ## Linked Lists
 * [Insert Node at Tail of Linked List](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Insert%20Node%20at%20Tail%20of%20Linked%20List.cpp)
+* [Count Pairs whose sum is equal to X](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Count%20Pairs%20whose%20sum%20is%20equal%20to%20X%20.cpp)------------------ [View Question](https://practice.geeksforgeeks.org/problems/count-pairs-whose-sum-is-equal-to-x/1)
+* [Rotate a Linked List](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Rotate%20a%20Linked%20List.cpp)-------------------------------------[View Question](https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1#)
+
+
+
 ## Recurssion
 * [Factorial of any number](https://github.com/kunal-j10/My-DSA/blob/main/Recurssion/Factorial%20by%20Recursion.cpp)
 * [Power using Recursion](https://github.com/kunal-j10/My-DSA/blob/main/Recurssion/Power%20using%20Recursion.cpp)
 * [Tower of Hanoi](https://github.com/kunal-j10/My-DSA/blob/main/Recurssion/Tower%20of%20Hanoi.cpp)
+
+
+
 ## Mathmatical Logics
 * [Sieve method for prime](https://github.com/kunal-j10/My-DSA/blob/main/Mathmatical%20Logics/Sieve%20method%20for%20prime.cpp)
 * #### Fibonacci Series
@@ -40,6 +56,9 @@
 * #### Taylor's Series
    * [Taylor's Series of e^x](https://github.com/kunal-j10/My-DSA/blob/main/Mathmatical%20Logics/Taylor's%20Series/Taylor's%20Series%20of%20e%5Ex.cpp)
    * [Taylor's Series of e^x using Horner’s Rule](https://github.com/kunal-j10/My-DSA/blob/main/Mathmatical%20Logics/Taylor's%20Series/Taylor's%20Series%20of%20e%5Ex%20using%20Horner%E2%80%99s%20Rule.cpp)
+
+
+
 ## Platform Specific Questions
 * #### CodeChef
    * [Maximum Value](https://github.com/kunal-j10/My-DSA/blob/main/Platform%20Specific%20Questions/CodeChef/Maximum%20Value.cpp)
