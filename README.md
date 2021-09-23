@@ -39,6 +39,13 @@
 * [Insert Node at Tail of Linked List](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Insert%20Node%20at%20Tail%20of%20Linked%20List.cpp)
 * [Count Pairs whose sum is equal to X](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Count%20Pairs%20whose%20sum%20is%20equal%20to%20X%20.cpp)------------------ [View Question](https://practice.geeksforgeeks.org/problems/count-pairs-whose-sum-is-equal-to-x/1)
 * [Rotate a Linked List](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Rotate%20a%20Linked%20List.cpp)-------------------------------------[View Question](https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1#)
+* [Check If Circular Linked List](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Check%20If%20Circular%20Linked%20List.cpp)
+* [Compare two linked lists](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Compare%20two%20linked%20lists%20.cpp)
+* [Linked List Cycle](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Linked%20List%20Cycle.cpp)
+* [Merge Two Sorted Lists](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Merge%20Two%20Sorted%20Lists.cpp)
+* [Nth node from end of linked list](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Nth%20node%20from%20end%20of%20linked%20list.cpp)
+* [Occurence of an integer in a Linked List](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Occurence%20of%20an%20integer%20in%20a%20Linked%20List%20.cpp)
+* [Reverse a linked list](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Reverse%20a%20linked%20list%20.cpp)
 
 
 
