@@ -24,6 +24,8 @@
    ---------------------------[View Question](https://leetcode.com/problems/container-with-most-water/)
 * [Median of two sorted arrays](https://github.com/kunal-j10/My-DSA/blob/main/Array/Median%20of%20two%20sorted%20arrays.cpp)
    --------------------------[View Question](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+* [Union of two Sorted Arrays](https://github.com/kunal-j10/My-DSA/blob/main/Array/Union%20of%20Two%20Sorted%20Arrays.cpp)----------------------------[View Question](https://practice.geeksforgeeks.org/problems/union-of-two-sorted-arrays/1)
+* [Trapping Rain Water](https://github.com/kunal-j10/My-DSA/blob/main/Array/Trapping%20Rain%20Water.cpp)-----------------------------------[View Question](https://leetcode.com/problems/trapping-rain-water/)
    
    
    
