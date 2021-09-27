@@ -46,6 +46,8 @@
 * [Nth node from end of linked list](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Nth%20node%20from%20end%20of%20linked%20list.cpp)
 * [Occurence of an integer in a Linked List](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Occurence%20of%20an%20integer%20in%20a%20Linked%20List%20.cpp)
 * [Reverse a linked list](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Reverse%20a%20linked%20list%20.cpp)
+* [Linked List Cycle II](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Linked%20List%20Cycle%20II.cpp)------------------------[View Question](https://leetcode.com/problems/linked-list-cycle-ii/)
+* [Sorted insert for circular linked list](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Sorted%20insert%20for%20circular%20linked%20list.cpp)---------------------------[View Question](https://practice.geeksforgeeks.org/problems/sorted-insert-for-circular-linked-list/1#)
 
 
 
