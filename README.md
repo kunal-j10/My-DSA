@@ -50,6 +50,11 @@
 * [Sorted insert for circular linked list](https://github.com/kunal-j10/My-DSA/blob/main/Linked%20List/Sorted%20insert%20for%20circular%20linked%20list.cpp)---------------------------[View Question](https://practice.geeksforgeeks.org/problems/sorted-insert-for-circular-linked-list/1#)
 
 
+## Stack
+* [Min Stack](https://github.com/kunal-j10/My-DSA/blob/main/Stack/Min%20Stack.cpp)
+* [Reverse a string using Stack](https://github.com/kunal-j10/My-DSA/blob/main/Stack/Reverse%20a%20string%20using%20Stack.cpp)
+
+
 
 ## Recurssion
 * [Factorial of any number](https://github.com/kunal-j10/My-DSA/blob/main/Recurssion/Factorial%20by%20Recursion.cpp)
