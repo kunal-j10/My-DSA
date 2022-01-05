@@ -31,3 +31,29 @@ vector<int> leftView(Node *root)
    }
    return v;
 }
+
+
+ // Method 2:- Using Recursion
+ 
+void LeftView(struct Node* root,int level,int &maxLevel,vector<int> &v)
+{
+    if(root==NULL)
+        return;
+    else{
+        if(level==maxLevel)
+        {
+            v.push_back(root->data);
+            maxLevel++;
+        }
+        LeftView(root->left,level+1,maxLevel,v);
+        LeftView(root->right,level+1,maxLevel,v);
+    }
+}
+
+vector<int> leftView(Node *root)
+{
+    vector<int> v;
+    int maxLevel=0;
+    LeftView(root,0,maxLevel,v);
+    return v;
+}
