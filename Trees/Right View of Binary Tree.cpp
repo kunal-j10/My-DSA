@@ -1,8 +1,8 @@
 // Should return  right view of tree
+
 class Solution
 {
     public:
-    //Function to return list containing elements of right view of binary tree.
     vector<int> rightView(Node *root)
     {
        struct Node *ptr;
@@ -31,6 +31,37 @@ class Solution
                q.push(NULL);
            }
        }
+       return v;
+    }
+};
+
+
+//  Recursive Method
+
+
+class Solution
+{
+    public:
+    void Transverse(Node *root,int level,int &maxLevel,vector<int> &v)
+    {
+        if(root!=NULL)
+        {
+            if(level==maxLevel)
+            {
+                v.push_back(root->data);
+                maxLevel++;
+            }
+            
+            Transverse(root->right,level+1,maxLevel,v);
+            Transverse(root->left,level+1,maxLevel,v);
+        }
+        return;
+    }
+    vector<int> rightView(Node *root)
+    {
+       vector<int> v;
+       int maxLength=0;
+       Transverse(root,0,maxLength,v);
        return v;
     }
 };
