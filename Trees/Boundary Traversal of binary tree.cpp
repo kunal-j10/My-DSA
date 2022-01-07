@@ -1,79 +1,58 @@
 class Solution {
 public:
-    void LeftBoundary(Node *root,vector <int> &v)
+    void LeftBoundary(Node *root,vector<int> &v)
     {
-        struct Node* ptr;
-        ptr=root;
-        while(ptr)
-        {
-            if(ptr->left)
-            {
-                v.push_back(ptr->data);
-                ptr=ptr->left;
-            }
-            else if(ptr->right)
-            {
-                v.push_back(ptr->data);
-                ptr=ptr->right;
-            }
-            else
-                break;
-        }
-        return;
-    }
-    
-    int LeafNodes(struct Node* root,vector<int> &v)
-    {
-        if(root==NULL)
-            return 0;
+        if( !root->left && !root->right)
+            return;
         else{
-            int x= LeafNodes(root->left,v);
-            int y= LeafNodes(root->right,v);
-            
-            if(x==0 && y==0)
-                v.push_back(root->data);
-            return 1;
+            v.push_back(root->data);
+            if(root->left)
+                LeftBoundary(root->left,v);
+            else if(root->right)
+                LeftBoundary(root->right,v);
         }
     }
     
-    void RightBoundary(Node *root,vector <int> &v)
+    void RightBoundary(Node *root,vector<int> &v)
     {
-        struct Node* ptr=root;
-        while(ptr)
+        if( !root->left && !root->right)
+            return;
+        else{
+            v.push_back(root->data);
+            if(root->right)
+                RightBoundary(root->right,v);
+            else if(root->left)
+                RightBoundary(root->left,v);
+        }
+    }
+    void LeafNodes(Node* root,vector<int> &v)
+    {
+        if(root)
         {
-            if(ptr->right)
-            {
-                v.push_back(ptr->data);
-                ptr=ptr->right;
-            }
-            else if(ptr->left)
-            {
-                v.push_back(ptr->data);
-                ptr=ptr->left;
-            }
-            else
-                break;
+            LeafNodes(root->left,v);
+            LeafNodes(root->right,v);
+            if(!root->left && !root->right)
+                v.push_back(root->data);
         }
         return;
     }
     
     vector <int> boundary(Node *root)
     {
-        vector <int> v1,v2,v3;
-        v1.push_back(root->data);
+        vector<int> v,v2;
+        v.push_back(root->data);
+        
         if(root->left)
-            LeftBoundary(root->left,v1);
+            LeftBoundary(root->left,v);
             
-        LeafNodes(root,v2);
+        LeafNodes(root,v);
         
         if(root->right)
-            RightBoundary(root->right,v3);
+            RightBoundary(root->right,v2);
             
-        v1.insert(v1.end(),v2.begin(),v2.end());
+        reverse(v2.begin(),v2.end());
+        v.insert(v.end(),v2.begin(),v2.end());
         
-        reverse(v3.begin(),v3.end());
-        v1.insert(v1.end(),v3.begin(),v3.end());
-        
-        return v1;
+        return v;
     }
 };
