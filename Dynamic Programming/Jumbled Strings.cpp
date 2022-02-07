@@ -1,3 +1,5 @@
+// unbounded knapsack
+
 class Solution{
 	public:
 	int TotalWays(string str){
