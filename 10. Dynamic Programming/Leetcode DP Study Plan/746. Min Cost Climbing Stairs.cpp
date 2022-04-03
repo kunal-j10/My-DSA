@@ -3,6 +3,7 @@ public:
     int memo[1004];
     // memo[i+1] denotes cost when length is i+1;
     // i.e if i==-1 then i+1 = 0 i.e cost when length is zero . 
+    
     int helper(vector<int> cost,int i,int n)
     {
         if(i>=n-2)
