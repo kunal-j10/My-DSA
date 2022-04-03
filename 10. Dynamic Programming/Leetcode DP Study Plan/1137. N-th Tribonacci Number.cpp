@@ -13,6 +13,7 @@ public:
         }
         return memo[n];
     }
+    
     int tribonacci(int n) {
         memset(memo,-1,sizeof(memo));
         return tribo(n);
