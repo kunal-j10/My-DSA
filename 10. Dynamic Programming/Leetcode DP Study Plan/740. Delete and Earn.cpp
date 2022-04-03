@@ -34,6 +34,5 @@ public:
         }
         return dp[10001];
         
-        
     }
 };
