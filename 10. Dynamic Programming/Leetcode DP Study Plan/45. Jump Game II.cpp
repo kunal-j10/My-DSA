@@ -20,3 +20,27 @@ public:
         return count;
     }
 };
+
+// Done Again ... Same concept as above
+class Solution {
+public:
+    int jump(vector<int>& nums) {
+        int n=nums.size();
+        int currmax=0;
+        int nextmax=0;
+        int count=0;
+        for(int i=0;i<n;i++)
+        {
+            if(i>currmax)
+            {
+                currmax=nextmax;
+                nextmax=0;
+                count++;
+            }
+            nextmax=max(nextmax,i+nums[i]);
+            
+        }
+        return count;
+        
+    }
+};

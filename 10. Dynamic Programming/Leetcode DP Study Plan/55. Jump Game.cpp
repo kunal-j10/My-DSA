@@ -13,3 +13,24 @@ public:
         return true;
     }
 };
+
+// ###### METHOD -2 ######
+// Recursive Method
+
+class Solution {
+public:
+    int helper(vector<int> &v,int i,int n)
+    {
+        if(i>=n)
+            return 1;
+        if(v[i-1]==0)
+            return 0;
+        int k=v[i-1];
+        v[i-1]--;
+        return  helper(v,i+k,n) || helper(v,i,n);
+    }
+
+    bool canJump(vector<int>& nums) {
+        return helper(nums,1,nums.size());
+    }
+};
