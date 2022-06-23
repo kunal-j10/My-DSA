@@ -1,45 +1,42 @@
-class Solution
-{
-    public:
-    // Function to find if a char is operand or operator
-    int isOperand(char x)
+class Solution {
+  public:
+    // Function to convert an infix expression to a postfix expression.
+    bool isChar(char c)
     {
-        if(x=='+' || x=='-' || x=='*' || x=='/' || x=='^')
+        if(c=='+' || c=='-' ||
+           c=='*' || c=='/' ||
+           c=='^')
             return 0;
         return 1;
     }
-
-    // Function to find precedence of Operators
-    int precedence(char x)
+    int precedence(char c)
     {
-        if(x=='+' || x=='-')
-            return 1;
-        else if(x=='*' || x=='/')
-            return 2;
-        else if(x=='^')    
-            return 3;
-            
-        return 0;
-    }
-    
-    //Function to convert an infix expression to a postfix expression.
-    string infixToPostfix(string s)
-    {
-        stack <char> st;
-        string str="";
-        int i=0;
+        if(c=='(' || c==')')     // ---|  Not Operator but to handle bracket
+            return 0;            // ---|  when '('' upcoming operator should be pushed
+                                //       amd for that it should not have any precedence
         
-        while(s[i]!='\0')
+        else if(c=='+' || c=='-')
+            return 1;
+        else if(c=='*' || c=='/')
+            return 2;
+        else
+            return 3;
+    }
+    string infixToPostfix(string s) {
+        string res="";
+        stack<char> st;
+        int i=0;
+        while(i<s.length())
         {
-            char x = s[i];
-            if(isOperand(x))
+            // if s[i] is character
+            if(isChar(s[i]))
             {
-                if(x== '(')
+                if(s[i]=='(')
                 {
-                    st.push(x);
+                    st.push(s[i]);
                     i++;
                 }
-                else if(x==')')
+                else if(s[i]==')')
                 {
                     if(st.top()=='(')
                     {
@@ -47,41 +44,40 @@ class Solution
                         i++;
                     }
                     else{
-                        str=str + st.top();
+                        // any operator in stack
+                        // i.e -> *
+                        //        +
+                        //        (   <<====
+                        //        ^
+                        //        *
+                        //        -
+                        // put operator in res
+                        res+=st.top();
                         st.pop();
                     }
                 }
-                else{
-                    str= str + x;
-                    i++;
-                }
-                
-                
+                else
+                    res+=s[i++];
             }
             else{
-                if(st.empty())
+                if(st.empty() || precedence(s[i]) > precedence(st.top()))
                 {
-                    st.push(x);
+                    // push in stack and wait
+                    st.push(s[i]);
                     i++;
                 }
-                else if(precedence(x) > precedence(st.top()))
-                {
-                    st.push(x);
-                    i++;
-                }
-                else if(precedence(x) <= precedence(st.top()))
-                {
-                    str = str + st.top();
+                else{
+                    // pop and put it into res string
+                    res+=st.top();
                     st.pop();
                 }
-                
             }
         }
         while(!st.empty())
         {
-            str = str + st.top();
+            res+=st.top();
             st.pop();
         }
-        return str;
+        return res;
     }
 };
